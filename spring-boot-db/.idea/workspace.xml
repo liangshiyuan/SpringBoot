@@ -1,17 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca3b348c-cd48-4f4b-b30b-899538ce1fe4" name="Default Changelist" comment="" />
+    <list default="true" id="ca3b348c-cd48-4f4b-b30b-899538ce1fe4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongodb/src/main/java/dbdemo/mongo/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongodb/src/main/java/dbdemo/mongo/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongodb/src/main/java/dbdemo/mongo/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongodb/src/main/resources/data-source.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongodb/src/test/java/dbdemo/mongo/test/RepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongodb/src/test/java/dbdemo/mongo/test/TestDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongodb/src/test/resources/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/dbdemo/mysql/MysqlApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/dbdemo/mysql/config/JpaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/dbdemo/mysql/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/dbdemo/mysql/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/dbdemo/mysql/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/dbdemo/mysql/repository/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/dbdemo/mysql/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/dbdemo/mysql/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/test/java/dbdemo/mysql/test/JpaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/test/java/dbdemo/mysql/test/MysqlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neo4j/src/main/java/dbdemo/neo4j/config/Neo4jConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neo4j/src/main/java/dbdemo/neo4j/domain/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neo4j/src/main/java/dbdemo/neo4j/domain/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neo4j/src/main/java/dbdemo/neo4j/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neo4j/src/main/java/dbdemo/neo4j/repositories/ActorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neo4j/src/main/java/dbdemo/neo4j/repositories/MovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neo4j/src/main/resources/ogm.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neo4j/src/test/java/dbdemo/neo4j/test/MovieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/dbdemo/redis/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/dbdemo/redis/repository/UserRedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/test/java/dbdemo/redis/test/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/test/java/dbdemo/redis/test/RedisListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/test/java/dbdemo/redis/test/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/data/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/data/src/main/java/com/test/data/config/Neo4jConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/data/src/main/java/com/test/data/domain/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/data/src/main/java/com/test/data/domain/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/data/src/main/java/com/test/data/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/data/src/main/java/com/test/data/repositories/ActorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/data/src/main/java/com/test/data/repositories/MovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/data/src/main/java/com/test/data/service/PagesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/data/src/main/resources/ogm.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/spring-boot-ui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/webui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/webui/src/main/java/com/test/webui/WebuiApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/webui/src/main/java/com/test/webui/controller/ActorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/webui/src/main/java/com/test/webui/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/webui/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-ui/webui/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/mongodb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/mongodb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/mysql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/mysql.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neo4j/neo4j.iml" beforeDir="false" afterPath="$PROJECT_DIR$/neo4j/neo4j.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neo4j/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/neo4j/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis.iml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1cDC4YID7lDRcCPLfXNQTliBchY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="F:/EclipseWorkspace/un2co_java_school" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dbdemo.mysql.repository" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -24,6 +135,109 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MovieTest">
+    <configuration name="MovieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="neo4j" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dbdemo.neo4j.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dbdemo.neo4j.test" />
+      <option name="MAIN_CLASS_NAME" value="dbdemo.neo4j.test.MovieTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dbdemo.redis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dbdemo.redis.test" />
+      <option name="MAIN_CLASS_NAME" value="dbdemo.redis.test.RedisListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dbdemo.redis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dbdemo.redis.test" />
+      <option name="MAIN_CLASS_NAME" value="dbdemo.redis.test.RedisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mongodb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dbdemo.mongo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dbdemo.mongo.test" />
+      <option name="MAIN_CLASS_NAME" value="dbdemo.mongo.test.RepositoryTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mysqltest" type="JUnit" factoryName="JUnit">
+      <module name="mysql" />
+      <option name="PACKAGE_NAME" value="dbdemo.mysql.test" />
+      <option name="MAIN_CLASS_NAME" value="dbdemo.mysql.test.MysqlTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MysqlApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mysql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dbdemo.mysql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dbdemo.mysql.MysqlApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.mysqltest" />
+      <item itemvalue="JUnit.RedisTest" />
+      <item itemvalue="JUnit.RedisListTest" />
+      <item itemvalue="JUnit.RepositoryTests" />
+      <item itemvalue="JUnit.MovieTest" />
+      <item itemvalue="Spring Boot.MysqlApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MovieTest" />
+        <item itemvalue="JUnit.RepositoryTests" />
+        <item itemvalue="JUnit.RedisTest" />
+        <item itemvalue="JUnit.RedisListTest" />
+        <item itemvalue="Spring Boot.MysqlApp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
@@ -39,10 +253,26 @@
       <option name="presentableId" value="Default" />
       <updated>1590053585221</updated>
       <workItem from="1590053587704" duration="218000" />
+      <workItem from="1590054158471" duration="2335000" />
+      <workItem from="1590136962724" duration="10791000" />
+      <workItem from="1590456668555" duration="1193000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
